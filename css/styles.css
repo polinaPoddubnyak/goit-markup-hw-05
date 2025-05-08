@@ -687,7 +687,7 @@ textarea.modal-input {
 }
 
 .modal-checkbox-label span {
-  display: inline-flex;
+  display: flex;
 }
 
 .modal-checkbox-label {
@@ -795,7 +795,7 @@ textarea.modal-input {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  display: inline-flex;
+  display: flex;
 }
 
 .modal-checkbox:checked + .modal-checkbox-label .custom-checkbox {
