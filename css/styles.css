@@ -633,7 +633,7 @@ input::placeholder {
 }
 
 .modal-input-wrapper > input.modal-input {
-  width: 100%;
+  width: calc(100% - 40px);
 }
 
 .modal-input:focus {
