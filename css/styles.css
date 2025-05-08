@@ -571,7 +571,7 @@ input::placeholder {
 }
 
 .modal {
-  background-color: #fffccc;
+  background: #fcfcfc;
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
@@ -586,15 +586,16 @@ input::placeholder {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
-  display: block;
   font-size: 12px;
-  font-weight: 500;
-  margin-bottom: 4px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
 }
 
 .modal-input-wrapper {
@@ -656,6 +657,10 @@ input::placeholder {
 
 .modal-text {
   font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .modal-checkbox-label input[type="checkbox"] {
