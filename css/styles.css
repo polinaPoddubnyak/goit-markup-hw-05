@@ -679,7 +679,6 @@ textarea.modal-input {
 }
 
 .modal-checkbox-label {
-  display: flex;
   align-items: center;
   font-size: 12px;
   color: #8e8f99;
@@ -789,5 +788,4 @@ textarea.modal-input {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-  display: inline-flex;
 }
