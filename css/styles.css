@@ -444,6 +444,8 @@ section {
   color: #ffffff;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-bottom: 16px;
+  font-weight: 500;
 }
 
 .footer-icons {
@@ -683,4 +685,8 @@ input::placeholder {
 
 .icon-close:hover svg {
   fill: #4d5ae5;
+}
+
+.modal-text {
+  margin-bottom: 16px;
 }
