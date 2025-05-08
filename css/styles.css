@@ -491,21 +491,30 @@ section {
 .sub-field {
   width: 264px;
   height: 40px;
-  font-size: 14px;
-  color: #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  background-color: #2e2f42;
-  border: 1px solid #e7e9fc;
+  color: #ffffff;
 }
 
 .sub-btn {
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
-  color: #f4f4fd;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -519,6 +528,7 @@ section {
 
 .footer-svg-sub {
   fill: #f4f4fd;
+  margin-left: 16px;
 }
 
 input::placeholder {
