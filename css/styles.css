@@ -482,10 +482,10 @@ section {
 }
 
 .subscription {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   gap: 24px;
-  align-items: flex-start;
+  align-items: flex-start;*/
 }
 
 .sub-field {
@@ -709,7 +709,8 @@ textarea.modal-input {
 
 .modal-submit-btn {
   display: block;
-  width: 100%;
+  /*width: 100%;*/
+  margin: 0 auto;
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
